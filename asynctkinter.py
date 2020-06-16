@@ -38,6 +38,7 @@ class AsyncEventDispatcher:
     Simple interface for binding and unbinding callback functions to events.
     Multiple callbacks per event are supported. Coroutines (async def) and
     normal functions (def) are supported.
+    This class is intended to be inherited from.
     """
 
     def __init__(self):
